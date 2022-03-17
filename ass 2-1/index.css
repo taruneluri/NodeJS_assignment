@@ -1,0 +1,110 @@
+.menu{
+    height: 50px;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    background: gray;
+}
+div.menu{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.menubuttons{
+    float: right;
+    padding: 14px;
+}
+.menubuttons button{
+    border: none;
+    background: gray;
+    color: white;
+    padding: 5px;
+}
+.menubuttons button:hover{
+    background-color: white;
+    color: gray;
+}
+.a
+{
+    float: left;
+}
+#ab{
+    position: relative;
+}
+.aa{
+    position: absolute;
+    display: none;
+    top:25px;
+}
+.aa button{
+    width: 90px;   
+}
+#ab:hover .aa{
+    display: block;
+    
+}
+.blank{
+    height: 20px;
+    width: 100%;
+    background-color: white;
+}
+.port{
+    height: 1500px;
+    width: 100%;
+    background-color: silver;
+    
+
+}
+.name{
+    height: 300px;
+    background: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ap{
+    height: 400px;
+    width: 100%;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.app{
+    height: 300px;
+    width: 300px;
+    background-color: gold;
+
+}
+.apa{
+    height: 200px;
+    width: 100%;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.appa{
+    height: 100px;
+    width: 300px;
+    background: gold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:large;
+
+}
+.app img{
+    height: 200px;
+    width: 300px;
+}
+.ap button{
+    background: none;
+    border:none;
+    color: gold;
+    font-size: 2em;
+}
+.ap button:hover{
+    background-color: gold;
+    color:cornflowerblue ;
+}
