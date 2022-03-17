@@ -1,0 +1,21 @@
+.a{
+    height: 900px;
+    width: 900px;
+}
+.aa,.ab,.ac{
+    height: 200px;
+    width:  300px;
+    float: left;
+}
+button{
+    padding: 8px;
+    border: 1px solid black;
+}
+button:hover{
+    padding: 10px;
+    border: 2px solid black;
+}
+img{
+    height: 200px;
+    width: auto;
+}
